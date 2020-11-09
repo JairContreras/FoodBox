@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comidas</title>
+	<meta charset="utf-8">
+    <meta name="application-name" content="Food Box"/>
+	<meta name="author" content="Luis Jair Contreras Cervantes"/>
+	<meta name="description" content="Un recetario dinamico de desayunos, comidas y cenas"/>
+	<meta name="generator" content="foodbox.com"/>
+	<meta name="keywords" content="recetario, comida, desayuno, cena, saludable"/>
+	<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16"> 
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/contenido1.css">
+    <link rel="stylesheet" type="text/css" href="css/aside.css">
+    <script type="text/javascript" src="porciones.js"></script>
+    <script type="text/javascript" src="mostrar.js"></script>
+</head>
+<body>
+
+	<header id="main">
+		<h1>Food Box</h1>
+	</header>	
+	<nav>
+		<div class="container">
+			<img src="img/logo.png" class="logo">
+			<input type="checkbox" id="check">
+			<label class="icon-menu"for="check"> </label>
+			<div class="menu">
+				<ul>
+					<li> <a href="index.html">Inicio</a></li>
+					<li> <a href="desayuno.html">Desayunos</a></li>
+					<li> <a href="comida.html">Comidas</a></li>
+					<li> <a href="cena.html">Cenas</a></li>
+                     <li> <a href="about.html">About us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+<!--  ------------------------Pue aqui empieza el contenido -------------------------- -->
+<div id="agrupar">
+	<section id="seccion">
+		<article>
+			<div class="titulo">
+				<h1>Comidas</h1>
+			</div>
+		</article>
+        <article>
+            <h1 class="nombre"><a name="mole">Mole poblano</a></h1>	   
+                <div class="receta">
+                    <figure>
+                       <img src="img/mole.jpg" class="platillo">
+                       <figcaption>
+                         Mole poblano
+                       </figcaption>
+                    </figure>
+                    <div class="texto">
+                        <p class="subt">Ingredientes</p>
+                        <ul>
+                            <li><span id="canela">1 1/2</span> rajas de canela</li>
+                            <li><span id="almendra">1/2</span> taza de almendra</li>
+                            <li><span id="cacahuate">1/4</span> de taza de cacahuate</li>
+                            <li><span id="nuez">1/2</span> taza de nuez</li>
+                            <li><span id="pepita">1/4</span> de taza de pepita</li>
+                            <li><span id="ajonjoli">1/4</span> de taza de ajonjolí</li>
+                            <li><span id="clavo">1/4</span> de cucharada de clavo entero</li>
+                            <li><span id="pimienta">1</span> cucharada de pimienta gorda entera</li>
+                            <li><span id="comino">1</span> cucharadita de comino</li>
+                            <li><span id="anis">4</span> piezas de anís estrella</li>
+                            <li><span id="ajo">6</span> dientes de ajo con cáscara</li>
+                            <li><span id="cebolla">1</span> pieza de cebolla blanca cortada en cuadros</li>
+                            <li><span id="manteca">1/2</span> taza de manteca de cerdo</li>
+                            <li><span id="chileAncho">125</span> gramos de chile ancho limpios y desvenados</li>
+                            <li><span id="chilePasilla">70</span> gramos de chile pasilla limpios y desvenados</li>
+                            <li><span id="chileGuajillo">70</span> gramos de chile guajillo limpios y desvenados</li>
+                            <li><span id="bolillo">1/2</span> pieza de bolillo</li>
+                            <li><span id="tortilla">2</span> piezas de tortillas de maíz</li>
+                            <li><span id="platano">1</span> pieza de plátano macho</li>
+                            <li><span id="tomate">2</span> piezas de tomate cortado en cuadros</li>
+                            <li><span id="pasa">1 1/2</span> tazas de pasa</li>
+                            <li><span id="caldo">2</span> litros de caldo de pollo</li>
+                            <li><span id="tomillo">1/2</span> cucharadita de tomillo</li>
+                            <li><span id="oregano">1</span> cucharada de orégano</li>
+                            <li><span id="sal">1</span> cucharada de sal de grano</li>
+                            <li><span id="chocolate">180</span> gramos de chocolate de mesa</li>
+                            <li><span id="azucar">1/2</span> taza de azúcar mascabada</li>
+                            <li><span id="pollo">1</span> pieza de pollo con piel, cortado en piezas, cocido
+                            al gusto de ajonjolí tostado, para montar</li>
+                            <form>
+                                <br>
+                                <input type="radio" id="4" name="porcion" onclick="molePoblano(4)"> 4 porciones
+                                <input type="radio" id="8" name="porcion" onclick="molePoblano(8)"> 8 porciones
+                                <input type="radio" id="16" name="porcion" onclick="molePoblano(16)"> 16 porciones
+                            </form>
+                        </ul>
+                        <p class="subt">Preparación</p>
+                        <p>Calienta un comal a fuego medio, asa la canela, las almendras, el cacahuate, la nuez, la pepita, el ajonjolí, el clavo, la pimienta gorda, el comino, el anís, el ajo con cáscara, y la cebolla blanca, cuando estén asados retira del comal y reserva. Cuida que no se quemen.</p>
+                        <p>Calienta una ollita a fuego medio con un poco de la manteca, fríe los chiles sin que se quemen, retira y reserva, fríe el pan con la tortilla y el plátano macho, retira y reserva.</p>
+                        <p>Agrega otra cucharada de manteca a la ollita y fríe la cebolla con el ajo asados, añade el tomate, el jitomate, las pasas y continúa la cocción hasta suavizar. Agrega los ingredientes anteriores junto con los que asaste en el comal, cocina nuevamente durante 5 a 10 minutos.</p>
+                        <p>Cubre los ingredientes de la olla con caldo de pollo, sazona con sal, orégano y tomillo, cocina hasta que todos los ingredientes estén suaves, alrededor de 20 minutos. Retira de cocción y licúa poco a poco hasta obtener una pasta. Reserva.</p>
+                        <p>Calienta nuevamente tu ollita de barro con un poco más de manteca, fríe la pasta y agrega un poco más de caldo de pollo para hidratar la pasta. Cocina durante 30 minutos moviendo constantemente.</p>
+                        <p>Disuelve el chocolate de mesa junto con el azúcar, incorpora el resto del caldo de pollo y cocina durante 30 minutos más. Añade las piezas de pollo cocidas, rectifica sazón y continúa la cocción hasta que comience a soltar la grasa.</p>
+                        <p>Sirve una pechuga en un plato cubierta con la salsa, decora con ajonjolí y acompaña con arroz rojo.</p>
+                    </div>
+                </div>    
+            
+        </article>
+        <article>
+            <h1 class="nombre"><a name="calabacitas">Calabacitas rellenas</a></h1>   
+            <div class="receta">
+                <figure>
+                    <img src="img/calabacitas.jpg" class="platillo">
+                    <figcaption>
+                        Calabacitas rellenas
+                    </figcaption>
+                </figure>
+                <div class="texto">
+                    <p class="subt">Ingredientes</p>
+                    <ul>
+                        <li><span id="pollo1">1</span> taza de pollo cocido y deshebrado, para el relleno</li>
+                        <li><span id="chile1">1</span> taza de raja de chile poblano para el relleno</li>
+                        <li><span id="crema1">1</span> taza de crema light para el relleno</li>
+                        <li><span id="agua1">2</span> litros de agua</li>
+                        <li><span id="calabaza1">2</span> piezas de calabaza italiana</li>
+                        <li><span id="aceite1">1</span> cucharada de aceite para la salsa</li>
+                        <li><span id="ajo1">2</span> dientes de ajo troceados, para la salsa</li>
+                        <li><span id="cebolla1">1/2</span> pieza de cebolla blanca troceada, para la salsa</li>
+                        <li><span id="elote1">1</span> taza de elote blanco, para la salsa</li>
+                        <li><span id="elote1">1</span> taza de elote amarillo, para la salsa</li>
+                        <li><span id="caldo1">1</span> taza de caldo de pollo para la salsa</li>
+                        <li><span id="crema2">1/2 </span> taza de crema light para la salsa</li>
+                        <li><span id="sal1">1</span> pizca de sal para la salsa</li>
+                        <li><span id="pimienta1">1</span> pizca de pimienta para la salsa</li>
+                        <li><span id="perejil1">3</span> cucharadas de perejil finamente picado
+                            suficiente de elote amarillo</li>
+                        <form>
+                            <br>
+                            <input type="radio" id="4" name="porcion" onclick="calabacitas(4)"> 4 porciones
+                            <input type="radio" id="8" name="porcion" onclick="calabacitas(8)"> 8 porciones
+                            <input type="radio" id="16" name="porcion" onclick="calabacitas(16)"> 16 porciones
+                        </form>
+                    </ul>
+                    <p class="subt">Preparación</p>
+                    <p>Para el relleno, en un bowl mezcla el pollo con las rajas, la crema, sazona con sal un poco de pimienta y reserva.</p>
+                    <p>Calienta una ollita a fuego medio con el agua hasta que llegue a punto de ebullición y cocina las calabazas hasta que estén suaves. Retira de la cocción y sobre una tabla corta a la mitad a lo largo. Con ayuda de una cuchara ahueca y vierte la calabaza que sobro en el relleno, rellena.</p>
+                    <p>Para la salsa, calienta una sartén a fuego medio con el aceite, cocina el ajo con la cebolla, el elote blanco y el elote amarillo hasta que se suavicen los ingredientes. Rellena con el caldo de pollo, cuece durante 10 minutos retira de la cocción.</p>
+                    <p>Licúa con la crema hasta obtener una salsa tersa, sazona con sal y pimienta y reserva.</p>
+                    <p>Sirve las calabazas en un plato con el espejo de salsa, espolvorea con perejil, elote entero y más queso.</p>
+                </div>
+            </div>      
+        </article> 
+        
+    
+        <article>
+            <span id="tituloEnviado"></span>
+            <div class="receta">
+                   <figure>
+                       <img id="img" class="platillo">
+                       <figcaption>
+                        <span id="tituloEnviado"></span>
+                       </figcaption>
+                    </figure>
+                    <div class="texto">
+                    <ul>
+                        <span id="ingredientesEnviados"></span>
+                    </ul>
+                        <span id="recetaEnviada"></span>
+                        
+                    </div>
+              
+            </div>      
+        </article> 
+        
+        <article>
+              <h1 class="nombre">Agrega tu receta</h1>
+             <br>
+                <form>
+                    Titulo de la receta:<br><input type="text" placeholder="Ingresa el titulo de la receta" id="tituloReceta" name="titulo">
+                    <br>Ingredientes:<br>
+                    <textarea id="ingredientesReceta" name="ingredientes"></textarea>
+                    <br>Preparación:<br>
+                    <textarea id="preparacionReceta" name="preparacion"></textarea><br>
+                    <input type="file" id="file" accept="image/*" />
+                    <input type="button" value="Enviar receta" onclick="mostrarReceta(ingredientes.value, titulo.value, preparacion.value)">
+                </form>
+            
+        </article>
+        
+	</section>
+	<aside id="columna">
+       <div class="containerAside">
+           <div class="titulo1">
+           <h1 class="tituloAside">Lo mejor del mes</h1>
+           <span class="numero">1.- </span><span class="enumeracion">Avena con manzana, canela, y miel.</span><br>
+           <span class="numero">2.- </span><span class="enumeracion">Barritas de avena y zanahoria</span><br>
+           <span class="numero">3.- </span><span class="enumeracion">Omelette de avena</span><br>
+           <span class="numero">4.- </span><span class="enumeracion">Club sandwich de waffle</span><br>
+           <span class="numero">5.- </span><span class="enumeracion">Smoothie de frutos rojos con avena</span>
+            </div>
+           <div class="titulo2">
+            <h1 class="tituloAside">Tips de salud</h1>
+           <span class="numero">1.-</span><span class="enumeracion">Modera tu consumo en alimentos grasos..</span><br>
+           <span class="numero">2.-</span><span class="enumeracion">Realiza actividad fisica cada día</span><br>
+           <span class="numero">3.-</span><span class="enumeracion">Manten una actitud positiva</span><br>
+           <span class="numero">4.-</span><span class="enumeracion">Considera algún suplemento nutricional</span><br>
+           <span class="numero">5.-</span><span class="enumeracion">Incluye alimento ricos en fibra en tu dieta diaria</span><br>
+           <span class="numero">6.-</span><span class="enumeracion">Toma 2 litros de agua al día</span><br>
+           <span class="numero">7.-</span><span class="enumeracion">Evita el tabaco</span><br>
+           </div>
+           <div class="titulo3">
+               <h1 class="tituloAside">Suscribete</h1>
+               <span class="enumeracion" align="center">Ingresa tu dirección para suscribirte a este sitio y recibir notificaciones de nuevo contenido por correo</span><br>
+               <span class="enumeracion" align="center">Unete con 1,035 suscriptores.</span>
+               <form action="mailto:ljair.512@gmail.com">
+               <input type="email" id="email" placeholder="Ingresa tu email">
+                <input type="submit" />
+                </form>
+            </div>
+           </div>
+    </aside>
+    <footer id="pie">
+			Food Box || 2019
+		</footer>
+	</div>
+</body>
+</html>

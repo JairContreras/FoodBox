@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+.content-one{
+	width: 100%;
+	top:150px;
+	position: fixed;
+	z-index: 100;
+}
+
+.content-portada{
+	width: 100%;
+	background-image: url(../img/pay.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	height: 500px;
+    z-index: 100;
+     
+	
+}
+
+
+
+@media screen and (max-width: 1500px){
+	.content-portada{
+		background-size: 1500px;
+}
+
+
+.content-item1{
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top:60px;
+	width: 700px;
+}
+
+.content-item1 h4{
+	color:white;
+	font-size: 70px;
+	font-weight: 100;
+}
+
+.content-item1 h2{
+    font-family: 'Satisfy', cursive;
+	color:white;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+
+@media screen and (max-width:900px){
+ .content-item1{
+ 	width: 100%;
+ }
+
+

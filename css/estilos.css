@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+}
+#main{
+	width: 100%;
+	background-color: orange;
+	color: white;
+    height: 40px;
+    top:0; left:0;
+    position: fixed;
+    z-index: 200;
+}
+
+
+.logo{
+	width: 80px;
+	height: 80px;
+    margin-left: 2%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+nav{
+    top:40px;
+    left:0;
+    margin-top: 0%;
+    width: 100%;
+    height: 100px;
+    background: white;
+    position: fixed;
+    z-index: 200;
+}
+
+
+.menu{
+    float:right;
+    margin-top: 19px;
+    margin-right: 10%;
+}
+
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+nav .menu li a:hover{
+    color: white;
+    background: red;
+}
+
+#check{
+    display: none;
+}
+.icon-menu{
+    display: none;
+}
+#check:checked ~ .menu{
+    height: 220px;
+}
+
+@media screen and (max-width:900px){
+
+    .icon-menu{
+        display: block;
+        color: black;
+        float: right;
+        padding: 5px;
+        font-size: 24px;
+        border: 1px solid #7a7a7a;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 16px;
+    }
+    .icon-menu:hover{
+        background: #3f3f3f;
+        cursor: pointer;
+    }
+    .menu{
+        float: left;
+        margin-top: 0px;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        background: #1e1e1e;
+        transition: all 300ms;
+    }
+    
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a{
+        display: block;
+        color: white;
+    }
+}

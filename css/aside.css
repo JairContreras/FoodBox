@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+.titulo1{
+	border-top-left-radius: 17px;
+    border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    height: 30px;
+    background-image: url("../img/verde.jpg");
+    color:white;
+    
+}
+
+.titulo2{
+    margin-top:300px;
+	border-top-left-radius: 17px;
+    border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    height: 30px;
+    background-image: url("../img/amarillo.jpg");
+    color: white;
+}
+
+.titulo3{
+    margin-top:420px;
+	border-top-left-radius: 17px;
+    border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    height: 30px;
+    background-image: url("../img/morado.jpg");
+   color: white;
+    text-align: center;
+}
+
+.tituloAside{
+    font-size: 25px;
+}
+
+.numero{
+   font-family: 'Kalam', cursive;
+    color: black;
+    font-size:30px;
+    margin-top: 10px;
+}
+.enumeracion{
+    font-size: 20px;
+    text-align:left;
+    color: black;
+    margin-bottom: 25px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+}

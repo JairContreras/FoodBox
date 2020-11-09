@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/contenido1.css">
+</head>
+<body>
+
+	<header id="main">
+		<h1>Food Box</h1>
+	</header>	
+	<nav>
+		<div class="container">
+			<img src="img/logo.png" class="logo">
+			<input type="checkbox" id="check">
+			<label class="icon-menu"for="check"> </label>
+			<div class="menu">
+				<ul>
+					<li> <a href="index.html">Inicio</a></li>
+					<li> <a href="desayuno.html">Desayunos</a></li>
+					<li> <a href="comida.html">Comidas</a></li>
+					<li> <a href="cena.html">Cenas</a></li>
+                    <li> <a href="#">Ordena</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+<!--  ------------------------Pue aqui empieza el contenido -------------------------- -->
+<div id="agrupar">
+	<section id="seccion">
+		<article>
+			<div class="titulo">
+				<h1>Cenas</h1>
+			</div>
+		</article>
+        <article>
+            <h1 class="nombre">Aguacates rellenos</h1>	   
+                <div class="receta">
+                    <figure>
+                       <img src="img/aguacate.jpg" class="platillo">
+                       <figcaption>
+                         Aguacates rellenos
+                       </figcaption>
+                    </figure>
+                </div>      
+        </article>
+        
+        <article>
+            <h1 class="nombre">Panini</h1>   
+            <div class="receta">
+                <figure>
+                    <img src="img/panini.jpg" class="platillo">
+                    <figcaption>
+                        Chilaquiles rojos
+                    </figcaption>
+                </figure>
+            </div>      
+        </article> 
+        
+	</section>
+		<aside id="columna">
+            <blockquote>Otros nombres: Feria en     Medellín</blockquote>
+            <blockquote>	Estado: Activo</blockquote>
+            <blockquote>	Tipo: Cultural</blockquote>
+            <blockquote>	Ingreso: Gratuito</blockquote>
+            <blockquote>	Ámbito: Nacional</blockquote>
+            <blockquote>	Sede: Medellín</blockquote>
+            <blockquote>	Lugar: Medellín</blockquote>
+            <blockquote>	País: Colombia</blockquote>
+            <blockquote>	Fecha: Agosto</blockquote>
+            <blockquote>	Primer evento: 1957 (Desfile de Silleteros) 1963 (Feria de las Flores)</blockquote>
+            <blockquote>	Frecuencia: Anual</blockquote>
+            <blockquote>	Organización: Delegados Secretaría de Cultura Ciudadana de la Alcaldía de Medellín	</blockquote>
+		</aside>
+    
+		<footer id="pie">
+			Food Box || 2019
+		</footer>
+	</div>
+</body>
+</html>

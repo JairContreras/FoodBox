@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desayunos</title>
+	<meta charset="utf-8">
+    <meta name="application-name" content="Food Box"/>
+	<meta name="author" content="Luis Jair Contreras Cervantes"/>
+	<meta name="description" content="Un recetario dinamico de desayunos, comidas y cenas"/>
+	<meta name="generator" content="foodbox.com"/>
+	<meta name="keywords" content="recetario, comida, desayuno, cena, saludable"/>
+	<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16"> 
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/contenido1.css">
+    <link rel="stylesheet" type="text/css" href="css/aside.css">
+    <script type="text/javascript" src="porciones.js"></script>
+    <script type="text/javascript" src="mostrar.js"></script>
+</head>
+<body>
+
+	<header id="main">
+		<h1>Food Box</h1>
+	</header>	
+	<nav>
+		<div class="container">
+			<img src="img/logo.png" class="logo">
+			<input type="checkbox" id="check">
+			<label class="icon-menu"for="check"> </label>
+			<div class="menu">
+				<ul>
+					<li> <a href="index.html">Inicio</a></li>
+					<li> <a href="desayuno.html">Desayunos</a></li>
+					<li> <a href="comida.html">Comidas</a></li>
+					<li> <a href="cena.html">Cenas</a></li>
+                     <li> <a href="about.html">About us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+<!--  ------------------------Pue aqui empieza el contenido -------------------------- -->
+<div id="agrupar">
+	<section id="seccion">
+		<article>
+			<div class="titulo">
+				<h1>Desayunos</h1>
+			</div>
+		</article>
+        <article>
+            <h1 class="nombre"><a name="chilaquiles">Chilaquiles</a></h1>	   
+                <div class="receta">
+                    <figure>
+                       <img src="img/chilaquiles.png" class="platillo">
+                       <figcaption>
+                          Chilaquiles rojos
+                       </figcaption>
+                    </figure>
+                
+                <div class="texto">
+                   <p class="subt">Ingredientes</p>
+                    <ul style="list-style-type: square">
+                        <li ><span id="pechuga1">80</span> gramos de pechuga de pollo sin hueso y sin piel</li>
+                        <li><span id="jitomate1">2</span> jitomates</li>
+                        <li><span id="chileGuajillo">2</span> chiles guajillos</li>
+                        <li><span id="chileArbol">1</span> chile de árbol</li>
+                        <li><span id="cebolla1">1</span> cebolla</li>
+                        <li><span id="ajo1">2</span> dientes de ajo</li>
+                        <li><span id="tortillas1">8</span> tortillas de maíz</li>
+                        <li><span id="crema">3</span> centilitros de crema</li>
+                        <li><span id="epazote">1</span> rama de epazote</li>
+                        <li> <span id="cilantro">1</span> rama de cilantro</li>
+                        <li><span id="aceite1">1.25</span> decilitros de aceite vegetal</li>
+                        <li>pimientas al gusto</li>
+                        <li>sal al gusto</li>
+                        <br>
+                        <form>
+                            <input type="radio" id="4" name="porcion" onclick="chilaquiles(4)"> 4 porciones
+                            <input type="radio" id="8" name="porcion" onclick="chilaquiles(8)"> 8 porciones
+                            <input type="radio" id="16" name="porcion" onclick="chilaquiles(16)"> 16 porciones
+                        </form>
+                 
+                    </ul>
+                    <p class="subt">Preparacion</p>
+                    <p>Limpie 80 gr de pechuga de pollo, que no tenga ni piel ni huesos y póngala en una cacerola. Cubra la pechuga de pollo con agua e incorpore 1/2 cebolla, 1 diente de ajo y sal al gusto. Hierva el agua a fuego alto, tape la cacerola y deje el pollo cociendo en el agua hirviendo por 20 minutos. </p>
+                    <p>Corte 8 tortillas de maíz en triángulos, al finalizar reserve. Vierta aproximadamente 1/2 taza de aceite vegetal en una sartén, de tal manera que tenga una capa de aceite de aproximadamente 2 cm de altura. Caliente el aceite a 180º C. Ponga los triángulos de tortilla que quepan en la sartén y fríalos por unos 2 minutos, hasta que estén dorados; muévalos regularmente con unas pinzas. Transfiera los triángulos de tortilla (totopos fritos) a servitoallas para que se sequen. Repita los 2 pasos anteriores con los triángulos de tortillas restantes, al finalizar reserve.</p>
+                    <p>Para la salsa roja, remueva las semillas y las venas de 2 chiles guajillo y de 1 chile de árbol. Ponga los chiles en una cacerola, también incorpore 2 jitomates. Cubra estos ingredientes con agua y hiérvala a fuego alto. Deje los ingredientes cocer en el agua hirviendo por unos 4 minutos, hasta que los chiles se suavicen. Transfiera los chiles y los jitomates a una licuadora, también agregue 1/4 de cebolla, 1 diente de ajo, pimienta al gusto. Licúe muy bien estos ingredientes, al finalizar reserve. Verifique que el pollo esté bien cocido, su color debe de ser blanco por fuera y por dentro. Sino cuézalo por más tiempo. Saque el pollo de la cacerola y deshébrelo; al finalizar reserve.</p>
+                    <p>Caliente en la cacerola a fuego medio 1 cucharada de aceite vegetal. Ponga en la cacerola la salsa que se preparó, 1 rama de epazote y sal al gusto. Mezcle los ingredientes y hierva la salsa a fuego alto. Cuando hierva reduzca a fuego medio y cueza la salsa por unos 3 minutos, hasta que se espese un poco; mueva ocasionalmente. Reduzca a fuego bajo, ponga en la cacerola los totopos fritos que doró e intente mezclarlos con la salsa (no los rompa). Cueza los totopos por unos 3 minutos, hasta que la salsa tenga una consistencia muy espesa; mueva ocasionalmente. Al finalizar reserve.</p>
+                    <p>Para decorar, corte finamente 1/4 de cebolla y 1 rama de cilantro; al finalizar reserve. Descarte la rama de epazote que puso en los chilaquiles. Sirva los chilaquiles y agrégueles 2 cucharadas de crema, la cebolla que picó, espolvoree 2 cucharadas de queso fresco molido y el cilantro que cortó.</p>
+                </div>
+                </div>      
+        </article>
+        
+        <article>
+            <h1 class="nombre"> <a name="huevos">Huevos motuleños</a></h1>   
+            <div class="receta">
+                <figure>
+                    <img src="img/huevos.jpg" class="platillo">
+                    <figcaption>
+                        Huevos motuleños
+                    </figcaption>
+                </figure>
+                <div class="texto">
+                    <p class="subt">Ingredientes</p>
+                    <ul style="list-style-type: square">
+                        <li><span id="jitomate">3</span> piezas de jitomate cortado en cuartos</li>
+                        <li><span id="ajo">1</span> diente de ajo</li>
+                        <li><span id="cebolla">1</span> de pieza de cebolla blanca en trozos</li>
+                        <li><span id="agua">2.5</span> decilitros de agua</li>
+                        <li><span id="aceite">6.25</span> de centilitros de aceite</li>
+                        <li><span id="cubo">1</span> cubo de Knorr Tomate Sazonador de Tomate</li>
+                        <li><span id="chicharo">250</span> gramos de chícharo cocido</li>
+                        <li><span id="tortilla">4</span> piezas de tortillas de maíz</li>
+                        <li><span id="huevo">4</span> piezas de huevo</li>
+                        <li><span id="caldo">1</span>miligramos de Knorr Suiza Caldo de Pollo</li>
+                        <li><span id="frijol">250</span> gramos de frijol negro molido</li>
+                        <li><span id="pechuga">1</span> rebanada de pechuga de pavo gruesa, en cbos pequeños</li>
+                        <form>
+                            <br>
+                            <input type="radio" id="4" name="porcion" onclick="huevos(4)"> 4 porciones
+                            <input type="radio" id="8" name="porcion" onclick="huevos(8)"> 8 porciones
+                            <input type="radio" id="16" name="porcion" onclick="huevos(16)"> 16 porciones
+                        </form>
+                    </ul>
+                    <p class="subt">Preparación</p>
+                    <p>Para la salsa, licuar el jitomate, ajo y cebolla con 1 taza de agua. Colar.</p>
+                    <p>Calentar 1 cucharadita de aceite y sofreír la salsa hasta que tome un tono anaranjado, añadir el cubo de Knorr® Tomate y los chícharos.</p>
+                    <p>Dejar que hierva a fuego bajo por 2 o 3 minutos.</p>
+                    <p>Calentar un poco más de aceite y pasar rápidamente las tortillas para suavizarlas. Escurrir.</p>
+                    <p>En una sartén de teflón, calentar el aceite restante y cocinar los huevos estrellados, uno a uno. Sazonar con pimienta y un poco de Knorr® Suiza Caldo de Pollo.</p>
+                    <p>En un plato, colocar una tortilla, untarle frijoles refritos, encima un huevo estrellado y bañar con la salsa de tomate y cubitos de pechuga de pavo. Servir.</p>
+                </div>
+            </div>
+             
+        </article>         
+        <article>
+            <span id="tituloEnviado"></span>
+            <div class="receta">
+                   <figure>
+                       <img id="img" class="platillo">
+                       <figcaption>
+                        <span id="tituloEnviado"></span>
+                       </figcaption>
+                    </figure>
+                    <div class="texto">
+                    <ul>
+                        <span id="ingredientesEnviados"></span>
+                    </ul>
+                        <span id="recetaEnviada">
+                        </span>
+                        
+                    </div>
+              
+            </div>      
+        </article> 
+        
+        <article>
+              <h1 class="nombre">Agrega tu receta</h1>
+             <br>
+                <form>
+                    Titulo de la receta:<br><input type="text" placeholder="Ingresa el titulo de la receta" id="tituloReceta" name="titulo">
+                    <br>Ingredientes:<br>
+                    <textarea id="ingredientesReceta" name="ingredientes"></textarea>
+                    <br>Preparación:<br>
+                    <textarea id="preparacionReceta" name="preparacion"></textarea><br>
+                    <input type="file" id="file" accept="image/*" />
+                    <input type="button" value="Enviar receta" onclick="mostrarReceta(ingredientes.value, titulo.value, preparacion.value)">
+                </form>
+            
+        </article>
+        
+        
+	</section>
+		    <aside id="columna">
+       <div class="containerAside">
+           <div class="titulo1">
+           <h1 class="tituloAside">Lo mejor del mes</h1>
+           <span class="numero">1.- </span><span class="enumeracion">Avena con manzana, canela, y miel.</span><br>
+           <span class="numero">2.- </span><span class="enumeracion">Barritas de avena y zanahoria</span><br>
+           <span class="numero">3.- </span><span class="enumeracion">Omelette de avena</span><br>
+           <span class="numero">4.- </span><span class="enumeracion">Club sandwich de waffle</span><br>
+           <span class="numero">5.- </span><span class="enumeracion">Smoothie de frutos rojos con avena</span>
+            </div>
+           <div class="titulo2">
+            <h1 class="tituloAside">Tips de salud</h1>
+           <span class="numero">1.-</span><span class="enumeracion">Modera tu consumo en alimentos grasos..</span><br>
+           <span class="numero">2.-</span><span class="enumeracion">Realiza actividad fisica cada día</span><br>
+           <span class="numero">3.-</span><span class="enumeracion">Manten una actitud positiva</span><br>
+           <span class="numero">4.-</span><span class="enumeracion">Considera algún suplemento nutricional</span><br>
+           <span class="numero">5.-</span><span class="enumeracion">Incluye alimento ricos en fibra en tu dieta diaria</span><br>
+           <span class="numero">6.-</span><span class="enumeracion">Toma 2 litros de agua al día</span><br>
+           <span class="numero">7.-</span><span class="enumeracion">Evita el tabaco</span><br>
+           </div>
+           <div class="titulo3">
+               <h1 class="tituloAside">Suscribete</h1>
+               <span class="enumeracion" align="center">Ingresa tu dirección para suscribirte a este sitio y recibir notificaciones de nuevo contenido por correo</span><br>
+               <span class="enumeracion" align="center">Unete con 1,035 suscriptores.</span>
+               <form action="mailto:ljair.512@gmail.com">
+               <input type="email" id="email" placeholder="Ingresa tu email">
+                <input type="submit" />
+                </form>
+            </div>
+           </div>
+    </aside>
+		<footer id="pie">
+			Food Box || 2019
+		</footer>
+</div>
+</body>
+</html>

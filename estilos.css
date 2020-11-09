@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+}
+    
+.nombre{
+    display: inline-block;
+    position: relative;
+    background-color: red;
+}
+
+.nombre::after, .nombre::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    top:0.6em;
+} 
+
+.nombre::before{
+  left:-140px;
+}
+
+.nombre::after{
+    right:-180px;
+}
+

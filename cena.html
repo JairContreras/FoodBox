@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cenas</title>
+    <meta charset="utf-8">
+    <meta name="application-name" content="Food Box"/>
+	<meta name="author" content="Luis Jair Contreras Cervantes"/>
+	<meta name="description" content="Un recetario dinamico de desayunos, comidas y cenas"/>
+	<meta name="generator" content="foodbox.com"/>
+	<meta name="keywords" content="recetario, comida, desayuno, cena, saludable"/>
+	<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/contenido1.css">
+    <link rel="stylesheet" type="text/css" href="css/aside.css">
+    <script type="text/javascript" src="porciones.js"></script>
+      <script type="text/javascript" src="mostrar.js"></script>
+</head>
+<body>
+
+	<header id="main">
+		<h1>Food Box</h1>
+	</header>	
+	<nav>
+		<div class="container">
+			<img src="img/logo.png" class="logo">
+			<input type="checkbox" id="check">
+			<label class="icon-menu"for="check"> </label>
+			<div class="menu">
+				<ul>
+					<li> <a href="index.html">Inicio</a></li>
+					<li> <a href="desayuno.html">Desayunos</a></li>
+					<li> <a href="comida.html">Comidas</a></li>
+					<li> <a href="cena.html">Cenas</a></li>
+                     <li> <a href="about.html">About us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+<!--  ------------------------Pue aqui empieza el contenido -------------------------- -->
+<div id="agrupar">
+	<section id="seccion">
+		<article>
+			<div class="titulo">
+				<h1>Cenas</h1>
+			</div>
+		</article>
+        <article>
+            <h1 class="nombre"><a name="aguacates">Aguacates rellenos</a></h1>	   
+                <div class="receta">
+                    <figure>
+                       <img src="img/aguacate.jpg" class="platillo">
+                       <figcaption>
+                         Aguacates rellenos
+                       </figcaption>
+                    </figure>
+                    <div class="texto">
+                        <p class="subt">Ingredientes</p>
+                        <ul>
+                            <li><span id="jitomate1">1</span> pieza de jitomate</li>
+                            <li><span id="perejil1">1</span> manojo de perejil</li>
+                            <li><span id="cebolla1">1/2</span> de cebolla</li>
+                            <li><span id="atun1">2</span> latas de Atún</li>
+                            <li><span id="aguacate1">2</span> piezas de Aguacate de México</li>
+                            <li><span id="limon1">2</span> piezas de limón</li>
+                            <li><span id="vinagre1">3</span> cucharadas de vinagre blanco</li>
+                            <li><span id="aceite1">3</span> cucharadas de aceite de oliva</li>
+                            <li><span id="sal1">1 </span> cucharadita de sal</li>
+                            <li><span id="pimienta1">1/2 </span> cucharadita de pimienta</li>
+                            <form>
+                                <br>
+                                <input type="radio" id="4" name="porcion" onclick="aguacate(4)"> 4 porciones
+                                <input type="radio" id="8" name="porcion" onclick="aguacate(8)"> 8 porciones
+                                <input type="radio" id="16" name="porcion" onclick="aguacate(16)"> 16 porciones
+                            </form>
+                        </ul>
+                        <p class="subt">Preparación</p>
+                        <p>Pica finamente el jitomate sin semillas, la cebolla y el perejil y mezclar en un bowl.</p>
+                        <p>Agrega al bowl el atún y sazona con el jugo de limón, el vinagre, el aceite, la sal y la pimienta. Mezcla hasta integrar.</p>
+                        <p>Corta los aguacates a la mitad y coloca unas gotas de limón sobre ellos para evitar que se pongan cafés.</p>
+                        <p>Rellena los aguacates de la ensalada de atún.</p>
+                    </div>
+                </div>      
+        </article>
+        
+        <article>
+            <h1 class="nombre"><a name="panini">Panini</a></h1>   
+            <div class="receta">
+                <figure>
+                    <img src="img/panini.jpg" class="platillo">
+                    <figcaption>
+                        panini
+                    </figcaption>
+                    <div class="texto">
+                    <ul>
+                        <li><span id="aceite">1/2</span> taza de aceite de oliva</li>
+                        <li><span id="vinagre">3</span> cucharadas de vinagre balsámico</li>
+                        <li><span id="ajo">1</span> diente de ajo finamente picado</li>
+                        <li><span id="jamon">4</span> rebanadas de jamón serrano rebanado fino</li>
+                        <li><span id="queso">12</span> quesos mozzarella en rebanadas finas</li>
+                        <li><span id="jitomate">4</span>rebanadas de jitomate</li>
+                        <li>gramos de albahaca fresca</li>
+                        <li><span id="pan">1</span> barra de pan ciabatta rebanado a la mitad</li>
+                        <form>
+                            <br>
+                            <input type="radio" id="4" name="porcion" onclick="panini(4)"> 4 porciones
+                            <input type="radio" id="8" name="porcion" onclick="panini(8)"> 8 porciones
+                            <input type="radio" id="16" name="porcion" onclick="panini(16)"> 16 porciones
+                        </form>
+                    </ul>
+                        <p>Batir el aceite de oliva, el vinagre y el ajo en un recipiente pequeño. Sazonar con sal y pimienta.</p>
+                        <p>Ponga una capa de jamón serrano, queso mozzarella, jitomate y albahaca sobre la parte de abajo del pan.</p>
+                        <p>Rocíe el sandwich con el aderezo preparado en el primer paso. Ponga la tapa y corte la barra de pan en 4 sandwiches.</p>
+                        <p>Prenda la parrilla (o la sandwichera) y cocine los paninis hasta que esten dorados y el queso esté derretido. Sacar despues de unos 5 minutos.</p>
+                    </div>
+                </figure>
+            </div>      
+        </article>       
+        <article>
+            <span id="tituloEnviado"></span>
+            <div class="receta">
+                   <figure>
+                       <img id="img" class="platillo">
+                       <figcaption>
+                        <span id="tituloEnviado"></span>
+                       </figcaption>
+                    </figure>
+                    <div class="texto">
+                    <ul>
+                        <span id="ingredientesEnviados"></span>
+                    </ul>
+                        <span id="recetaEnviada"></span>
+                        
+                    </div>
+              
+            </div>      
+        </article> 
+        
+        <article>
+              <h1 class="nombre">Agrega tu receta</h1>
+             <br>
+                <form>
+                    Titulo de la receta:<br><input type="text" placeholder="Ingresa el titulo de la receta" id="tituloReceta" name="titulo">
+                    <br>Ingredientes:<br>
+                    <textarea id="ingredientesReceta" name="ingredientes"></textarea>
+                    <br>Preparación:<br>
+                    <textarea id="preparacionReceta" name="preparacion"></textarea><br>
+                    <input type="file" id="file" accept="image/*" />
+                    <input type="button" value="Enviar receta" onclick="mostrarReceta(ingredientes.value, titulo.value, preparacion.value)">
+                </form>
+            
+        </article>
+        
+	</section>
+   <aside id="columna">
+       <div class="containerAside">
+           <div class="titulo1">
+           <h1 class="tituloAside">Lo mejor del mes</h1>
+           <span class="numero">1.- </span><span class="enumeracion">Avena con manzana, canela, y miel.</span><br>
+           <span class="numero">2.- </span><span class="enumeracion">Barritas de avena y zanahoria</span><br>
+           <span class="numero">3.- </span><span class="enumeracion">Omelette de avena</span><br>
+           <span class="numero">4.- </span><span class="enumeracion">Club sandwich de waffle</span><br>
+           <span class="numero">5.- </span><span class="enumeracion">Smoothie de frutos rojos con avena</span>
+            </div>
+           <div class="titulo2">
+            <h1 class="tituloAside">Tips de salud</h1>
+           <span class="numero">1.-</span><span class="enumeracion">Modera tu consumo en alimentos grasos..</span><br>
+           <span class="numero">2.-</span><span class="enumeracion">Realiza actividad fisica cada día</span><br>
+           <span class="numero">3.-</span><span class="enumeracion">Manten una actitud positiva</span><br>
+           <span class="numero">4.-</span><span class="enumeracion">Considera algún suplemento nutricional</span><br>
+           <span class="numero">5.-</span><span class="enumeracion">Incluye alimento ricos en fibra en tu dieta diaria</span><br>
+           <span class="numero">6.-</span><span class="enumeracion">Toma 2 litros de agua al día</span><br>
+           <span class="numero">7.-</span><span class="enumeracion">Evita el tabaco</span><br>
+           </div>
+           <div class="titulo3">
+               <h1 class="tituloAside">Suscribete</h1>
+               <span class="enumeracion" align="center">Ingresa tu dirección para suscribirte a este sitio y recibir notificaciones de nuevo contenido por correo</span><br>
+               <span class="enumeracion" align="center">Unete con 1,035 suscriptores.</span>
+               <form action="mailto:ljair.512@gmail.com">
+               <input type="email" id="email" placeholder="Ingresa tu email">
+                <input type="submit" />
+                </form>
+            </div>
+           </div>
+    </aside>
+    
+		<footer id="pie">
+			Food Box || 2019
+		</footer>
+	</div>
+</body>
+</html>
